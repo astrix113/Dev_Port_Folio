@@ -78,7 +78,11 @@ export default function ProjectsSection() {
             </p>
             <div className="flex flex-wrap gap-2">
               {data.technologies.map((tech) => (
-                <Badge key={tech} variant={'outline'} size={'lg'}>
+                <Badge
+                  key={tech}
+                  variant="outline"
+                  className="px-3 py-1 text-lg"
+                >
                   {tech}
                 </Badge>
               ))}
