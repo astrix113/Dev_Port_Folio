@@ -26,6 +26,26 @@ export const navLinks: NavLink[] = [
 
 export const projectsData: Project[] = [
   {
+    video: "assets/videos/creatr_demo.mp4",
+    title: "Creatr",
+    description:
+      "An AI-powered creator platform that leverages Next.js, Clerk for authentication, Convex for backend services, ImageKit for image optimization, and Google Gemini for advanced AI capabilities. The platform offers creators a seamless experience to generate, manage, and share content with enhanced AI-driven tools and features.",
+    technologies: [
+      "Next.js",
+      "Clerk",
+      "Convex",
+      "ImageKit",
+      "Googlr Gemini",
+      "TailwindCSS",
+      "Shadcn/ui",
+    ],
+    links: {
+      preview: "https://ai-powered-creator-platform.vercel.app/",
+      github: "https://github.com/astrix113/AI-Powered-Creator-Platform",
+      githubApi: "#",
+    },
+  },
+  {
     video: "assets/videos/hirrd-demo.mp4",
     title: "Hirrd",
     description:
@@ -96,7 +116,7 @@ export const projectsData: Project[] = [
     technologies: ["React", "Three.js", "GSAP"],
     links: {
       preview: "https://apple-website-fawn-ten.vercel.app/",
-      github: "https://github.com/astrix113/Apple_Website", 
+      github: "https://github.com/astrix113/Apple_Website",
       githubApi: "#",
     },
   },

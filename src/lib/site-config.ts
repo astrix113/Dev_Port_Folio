@@ -39,6 +39,6 @@ export const siteConfig = {
     linkedin: 'https://www.linkedin.com/in/yunus-khan786/',
     github: 'https://github.com/astrix113',
     mailTo: 'mailto:yunuskhanmohammad93@gmail.com',
-    cvPdf: '/res_august_off_campus.pdf',
+    cvPdf: '/Off_Campus_Resume.pdf',
   },
 }
